@@ -1,0 +1,191 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{9EE0F7B1-FA00-4117-B012-7AA339F72264}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "GammonGraphic"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "GammonGraphic"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\_Build\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\_Build\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.XML"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "board_texture.jpg"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "checker_count.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "checker_dark.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "checker_light.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cube_1.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cube_16.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cube_2.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cube_32.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cube_4.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cube_64.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cube_8.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cube_nill.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_dark_1.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_dark_2.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_dark_3.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_dark_4.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_dark_5.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_dark_6.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_light_1.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_light_2.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_light_3.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_light_4.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_light_5.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dice_light_6.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

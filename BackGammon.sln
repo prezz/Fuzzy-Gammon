@@ -1,0 +1,88 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GammonGUI", "GammonGUI\GammonGUI.csproj", "{6F601E61-E5AA-4B99-87CF-6B26CF2D5D7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4FC6A15-55DF-4FF2-90A1-85A314052254} = {C4FC6A15-55DF-4FF2-90A1-85A314052254}
+		{CDBA0C9F-2294-47C0-90A5-7B2CE5A89E49} = {CDBA0C9F-2294-47C0-90A5-7B2CE5A89E49}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GammonGame", "GammonGame\GammonGame.csproj", "{C4FC6A15-55DF-4FF2-90A1-85A314052254}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GammonAgent", "GammonAgent\GammonAgent.csproj", "{CDBA0C9F-2294-47C0-90A5-7B2CE5A89E49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4FC6A15-55DF-4FF2-90A1-85A314052254} = {C4FC6A15-55DF-4FF2-90A1-85A314052254}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomModule", "RandomModule\RandomModule.csproj", "{01D2C469-0A1F-45FE-A9B4-0D24EA2DAFAF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubevalModule", "PubevalModule\PubevalModule.csproj", "{B8AE529C-BEE2-4DF3-9102-51D97E22E19E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzevalModule", "FuzzevalModule\FuzzevalModule.csproj", "{8B4C2E3C-5975-4935-B7C2-E4AA5A6EBE67}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDModule", "TDModule\TDModule.csproj", "{E46C25BD-8C4E-4A53-991D-824F9E74CC63}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TD2Module", "TD2Module\TD2Module.csproj", "{E46C25BD-8C4E-4A53-991D-824F9E74CC63}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GammonGraphic", "GammonGraphic\GammonGraphic.csproj", "{9EE0F7B1-FA00-4117-B012-7AA339F72264}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6F601E61-E5AA-4B99-87CF-6B26CF2D5D7D}.Debug.ActiveCfg = Debug|.NET
+		{6F601E61-E5AA-4B99-87CF-6B26CF2D5D7D}.Debug.Build.0 = Debug|.NET
+		{6F601E61-E5AA-4B99-87CF-6B26CF2D5D7D}.Release.ActiveCfg = Release|.NET
+		{6F601E61-E5AA-4B99-87CF-6B26CF2D5D7D}.Release.Build.0 = Release|.NET
+		{C4FC6A15-55DF-4FF2-90A1-85A314052254}.Debug.ActiveCfg = Debug|.NET
+		{C4FC6A15-55DF-4FF2-90A1-85A314052254}.Debug.Build.0 = Debug|.NET
+		{C4FC6A15-55DF-4FF2-90A1-85A314052254}.Release.ActiveCfg = Release|.NET
+		{C4FC6A15-55DF-4FF2-90A1-85A314052254}.Release.Build.0 = Release|.NET
+		{CDBA0C9F-2294-47C0-90A5-7B2CE5A89E49}.Debug.ActiveCfg = Debug|.NET
+		{CDBA0C9F-2294-47C0-90A5-7B2CE5A89E49}.Debug.Build.0 = Debug|.NET
+		{CDBA0C9F-2294-47C0-90A5-7B2CE5A89E49}.Release.ActiveCfg = Release|.NET
+		{CDBA0C9F-2294-47C0-90A5-7B2CE5A89E49}.Release.Build.0 = Release|.NET
+		{01D2C469-0A1F-45FE-A9B4-0D24EA2DAFAF}.Debug.ActiveCfg = Debug|.NET
+		{01D2C469-0A1F-45FE-A9B4-0D24EA2DAFAF}.Debug.Build.0 = Debug|.NET
+		{01D2C469-0A1F-45FE-A9B4-0D24EA2DAFAF}.Release.ActiveCfg = Release|.NET
+		{01D2C469-0A1F-45FE-A9B4-0D24EA2DAFAF}.Release.Build.0 = Release|.NET
+		{B8AE529C-BEE2-4DF3-9102-51D97E22E19E}.Debug.ActiveCfg = Debug|.NET
+		{B8AE529C-BEE2-4DF3-9102-51D97E22E19E}.Debug.Build.0 = Debug|.NET
+		{B8AE529C-BEE2-4DF3-9102-51D97E22E19E}.Release.ActiveCfg = Release|.NET
+		{B8AE529C-BEE2-4DF3-9102-51D97E22E19E}.Release.Build.0 = Release|.NET
+		{8B4C2E3C-5975-4935-B7C2-E4AA5A6EBE67}.Debug.ActiveCfg = Debug|.NET
+		{8B4C2E3C-5975-4935-B7C2-E4AA5A6EBE67}.Debug.Build.0 = Debug|.NET
+		{8B4C2E3C-5975-4935-B7C2-E4AA5A6EBE67}.Release.ActiveCfg = Release|.NET
+		{8B4C2E3C-5975-4935-B7C2-E4AA5A6EBE67}.Release.Build.0 = Release|.NET
+		{E46C25BD-8C4E-4A53-991D-824F9E74CC63}.Debug.ActiveCfg = Debug|.NET
+		{E46C25BD-8C4E-4A53-991D-824F9E74CC63}.Debug.Build.0 = Debug|.NET
+		{E46C25BD-8C4E-4A53-991D-824F9E74CC63}.Release.ActiveCfg = Release|.NET
+		{E46C25BD-8C4E-4A53-991D-824F9E74CC63}.Release.Build.0 = Release|.NET
+		{E46C25BD-8C4E-4A53-991D-824F9E74CC63}.Debug.ActiveCfg = Debug|.NET
+		{E46C25BD-8C4E-4A53-991D-824F9E74CC63}.Debug.Build.0 = Debug|.NET
+		{E46C25BD-8C4E-4A53-991D-824F9E74CC63}.Release.ActiveCfg = Release|.NET
+		{E46C25BD-8C4E-4A53-991D-824F9E74CC63}.Release.Build.0 = Release|.NET
+		{9EE0F7B1-FA00-4117-B012-7AA339F72264}.Debug.ActiveCfg = Debug|.NET
+		{9EE0F7B1-FA00-4117-B012-7AA339F72264}.Debug.Build.0 = Debug|.NET
+		{9EE0F7B1-FA00-4117-B012-7AA339F72264}.Release.ActiveCfg = Release|.NET
+		{9EE0F7B1-FA00-4117-B012-7AA339F72264}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
